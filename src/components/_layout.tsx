@@ -14,7 +14,7 @@ export const Layout = () => {
 				<Link to="/" rel="home">
 					<span aria-label="waffle" role="img">
 						🧇
-					</span>
+					</span>{' '}
 					You Can Waffle That!
 				</Link>
 
