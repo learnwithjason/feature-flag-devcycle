@@ -1,0 +1,94 @@
+{
+	"yours": [
+		{
+			"id": 1,
+			"title": "Tofu Waffle",
+			"author": "Balle Hurns",
+			"link": "https://www.tiktok.com/@ballehurns/video/7201272591691222318",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/tofu-waffle.jpg",
+				"alt": "a woman placing tofu into a mini waffle iron"
+			}
+		},
+		{
+			"id": 2,
+			"title": "Spaghetti Potsticker Waffles",
+			"author": "Kevin Ashton",
+			"link": "https://www.tiktok.com/@oldscoolkevmo/video/6996442533559684358",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/spaghetti-waffle.jpg",
+				"alt": "spaghetti in a waffle iron"
+			}
+		},
+		{
+			"id": 3,
+			"title": "Mac n Cheese Waffles",
+			"author": "Anthony Hoy Fong",
+			"link": "https://www.tiktok.com/@anthonyhoyfong/video/6971171931655654662",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/mac-n-cheese-waffle.jpg",
+				"alt": "mac n cheese in a waffle iron"
+			}
+		},
+		{
+			"id": 4,
+			"title": "Chicken Teriyaki Rice Waffles",
+			"author": "Alexa Santos",
+			"link": "https://www.tiktok.com/@alexawhatsfordinner/video/7205638340492840238",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/chicken-teriyaki-waffle.jpg",
+				"alt": "rice in a waffle iron"
+			}
+		}
+	],
+	"trending": [
+		{
+			"id": 5,
+			"title": "Tater Tot Waffles",
+			"author": "Waffle Iron Chef",
+			"link": "https://www.tiktok.com/@waffleironchef/video/6840515998500539654",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/tater-tot-waffle.jpg",
+				"alt": "tater tots in a waffle iron"
+			}
+		},
+		{
+			"id": 6,
+			"title": "Turkey Sausage, Egg, and Cinnamon Roll Waffles",
+			"author": "MistiesKitchen",
+			"link": "https://www.tiktok.com/@mistieskitchen/video/7161867259755990315",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/turkey-sausage-waffle.jpg",
+				"alt": "turkey sausage, an egg, and two cinnamon rolls in a waffle iron"
+			}
+		},
+		{
+			"id": 7,
+			"title": "Pepperoni, Egg, and Cheese Waffles",
+			"author": "KetoKravings",
+			"link": "https://www.tiktok.com/@ketokravings/video/6852418052697443590",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/pepperoni-waffle.jpg",
+				"alt": "pepperoni, egg, and cheese in a waffle iron"
+			}
+		},
+		{
+			"id": 8,
+			"title": "Ramen Waffles",
+			"author": "Original Top Ramen",
+			"link": "https://www.tiktok.com/@originaltopramen/video/7218648182144781614",
+			"network": "tiktok",
+			"image": {
+				"src": "https://res.cloudinary.com/jlengstorf/image/upload/w_400,f_auto,q_auto/ycwt/ramen-waffle.jpg",
+				"alt": "ramen noodles in a waffle iron"
+			}
+		}
+	]
+}

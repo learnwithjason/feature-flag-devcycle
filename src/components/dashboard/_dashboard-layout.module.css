@@ -1,0 +1,99 @@
+.dashboard {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	height: calc(100vh - 6rem);
+}
+
+.nav {
+	background: var(--color-text);
+	border-right: 1px solid var(--color-gray-border);
+	box-shadow: 4px 0 1rem var(--color-gray-border);
+}
+
+.nav a {
+	border-bottom: 1px solid var(--color-text-muted);
+	color: var(--color-white);
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav a:is(:focus, :active, :hover),
+.active {
+	background-color: var(--color-black);
+}
+
+.content {
+	align-items: flex-start;
+	background: var(--color-gray-light);
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	overflow-y: scroll;
+	padding: 3rem;
+}
+
+.waffleList {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+	margin-block-start: 1rem;
+	padding: 0;
+}
+
+.waffle {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+
+.waffle img {
+	width: 100%;
+}
+
+.waffle h3 {
+	font-size: 0.875rem;
+	font-weight: 400;
+	line-height: 1.25;
+}
+
+.waffle h3 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.waffle:is(:focus-within, :hover) h3 a {
+	text-decoration: underline;
+}
+
+.waffle p {
+	color: var(--color-text-muted);
+	font-size: 0.75rem;
+	margin-block-end: 0.5rem;
+}
+
+.controls {
+	display: flex;
+	gap: 1rem;
+	margin-top: auto;
+	padding-inline: 1rem;
+}
+
+.button {
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 0.125rem;
+	color: var(--color-text);
+	display: block;
+	font-size: 0.875rem;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	width: 100%;
+}
+
+.button:is(:active, :focus, :hover) {
+	background: var(--color-white);
+	border-color: var(--color-gray-border);
+	cursor: pointer;
+}
