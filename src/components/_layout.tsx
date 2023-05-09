@@ -12,6 +12,9 @@ export const Layout = () => {
 		<>
 			<header className={styles.header}>
 				<Link to="/" rel="home">
+					<span aria-label="waffle" role="img">
+						🧇
+					</span>
 					You Can Waffle That!
 				</Link>
 
