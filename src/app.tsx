@@ -9,9 +9,6 @@ import { DashboardProgress } from './components/dashboard/dashboard-progress';
 
 import './styles/main.css';
 
-/*
- * Wait to show routes until we've checked whether the user is logged in
- */
 const MainApp = () => {
 	const { isLoaded } = useUser();
 
