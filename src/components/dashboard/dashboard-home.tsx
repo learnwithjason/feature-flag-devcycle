@@ -1,20 +1,25 @@
+import { useVariableValue } from '@devcycle/devcycle-react-sdk';
 import { Link } from 'react-router-dom';
 import waffles from '../../data/waffles.json';
 import styles from './_dashboard-layout.module.css';
 
 export const DashboardHome = () => {
+	const showWaffFulfillment = useVariableValue('waff-fulfillment', false);
+
 	return (
 		<>
-			<section className="box">
-				<div className="boxTopper">
-					<h2>NEW! Your Journey Toward Waff-fulfillment</h2>
-					<div className={styles.boxControls}>
-						<Link to="/dashboard/progress" className={styles.button}>
-							check it out &rarr;
-						</Link>
+			{showWaffFulfillment ? (
+				<section className="box">
+					<div className="boxTopper">
+						<h2>NEW! Your Journey Toward Waff-fulfillment</h2>
+						<div className={styles.boxControls}>
+							<Link to="/dashboard/progress" className={styles.button}>
+								check it out &rarr;
+							</Link>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			) : null}
 			<section className="box">
 				<div className="boxTopper">
 					<h2>Popular Waffles</h2>
