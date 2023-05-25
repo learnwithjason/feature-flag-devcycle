@@ -1,22 +1,6 @@
-import { useVariableValue } from '@devcycle/devcycle-react-sdk';
-import { redirect, useNavigate } from 'react-router-dom';
 import styles from './dashboard-progress.module.css';
-import { useEffect } from 'react';
 
 export const DashboardProgress = () => {
-	const navigate = useNavigate();
-	const showWaffFulfillment = useVariableValue('waff-fulfillment', false);
-
-	useEffect(() => {
-		if (!showWaffFulfillment) {
-			navigate('/dashboard');
-		}
-	}, [showWaffFulfillment]);
-
-	if (!showWaffFulfillment) {
-		return null;
-	}
-
 	return (
 		<>
 			<section className="box">
@@ -53,7 +37,7 @@ export const DashboardProgress = () => {
 								expensive experiments? There’s only one way to find out!
 							</p>
 						</div>
-						<p className={styles.status}>2 / 6</p>
+						<p className={styles.status}>1 / 2</p>
 					</li>
 				</ul>
 			</section>
